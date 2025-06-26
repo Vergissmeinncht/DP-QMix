@@ -1,4 +1,6 @@
-Please refer to the environment configuration https://github.com/tjuHaoXiaotian/pymarl3, It is recommended to use the latest environment configuration. 
+Please refer to the environment configuration https://github.com/tjuHaoXiaotian/pymarl3. 
+
+It is recommended to use the latest environment configuration. 
 
 The code for UNMAS can be obtained from https://github.com/James0618/unmas.
 

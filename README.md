@@ -1,4 +1,4 @@
-Please refer to the environment configuration [https://github.com/tjuHaoXiaotian/pymarl3](https://github.com/hijkzzz/pymarl2). 
+Please refer to the environment configuration https://github.com/hijkzzz/pymarl2. 
 
 It is recommended to use the latest environment configuration. 
 

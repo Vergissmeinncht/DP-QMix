@@ -45,7 +45,7 @@ def run(_run, _config, _log):
                           "deepset_vdn", "deepset_qmix", "deepset_hyper_vdn", "deepset_hyper_qmix",
                           "updet_vdn", "updet_qmix", "vdn_DA", "qmix_DA",
                           "gnn_vdn", "gnn_qmix", "qplex", "hpn_qplex", "asn",
-                          "ippo", "mappo","for_hpn_qgattenmix"
+                          "ippo", "mappo","qtran"
                           ]
     env_name = args.env
     logdir = env_name
@@ -81,7 +81,7 @@ def run(_run, _config, _log):
                                       args.gnn_layer_num,
                                       args.td_lambda,
                                   ))
-        elif args.name in ["vdn", "qmix", "deepset_vdn", "deepset_qmix", "qplex", "asn"]:
+        elif args.name in ["vdn", "qmix", "deepset_vdn", "deepset_qmix", "qplex", "asn","qtran"]:
             logdir = os.path.join(logdir,
                                   "mixer={}-tdlambda={}".format(
                                       args.mixer,

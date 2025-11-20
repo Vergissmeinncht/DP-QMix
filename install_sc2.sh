@@ -8,7 +8,7 @@ export PYMARL3_CODE_DIR=$(pwd)
 # 1. Install StarCraftII
 echo 'Install StarCraftII...'
 cd "$HOME"
-export SC2PATH="$HOME/StarCraftII"
+export SC2PATH="$HOME/DP-QMix/3rdparty/StarCraftII"
 echo 'SC2PATH is set to '$SC2PATH
 if [ ! -d $SC2PATH ]; then
         echo 'StarCraftII is not installed. Installing now ...';

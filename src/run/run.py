@@ -81,11 +81,16 @@ def run(_run, _config, _log):
                                       args.gnn_layer_num,
                                       args.td_lambda,
                                   ))
-        elif args.name in ["vdn", "qmix", "deepset_vdn", "deepset_qmix", "qplex", "asn","qtran"]:
+        elif args.name in ["vdn", "qmix", "deepset_vdn", "deepset_qmix", "qplex", "asn"]:
             logdir = os.path.join(logdir,
                                   "mixer={}-tdlambda={}".format(
                                       args.mixer,
                                       args.td_lambda,
+                                  ))
+        elif args.name in ["qtran"]:
+            logdir = os.path.join(logdir,
+                                  "mixer={}".format(
+                                      args.mixer,
                                   ))
         elif args.name in ["updet_vdn", "updet_qmix"]:
             logdir = os.path.join(logdir,

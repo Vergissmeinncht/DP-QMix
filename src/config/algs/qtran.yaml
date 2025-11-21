@@ -28,4 +28,5 @@ nopt_min_loss: 0.1
 
 network_size: small
 
-name: "qtran_env=8_adam"
+
+name: "qtran"
